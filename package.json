@@ -1,0 +1,17 @@
+{
+  "name": "gorilla-samples",
+  "version": "1.0.0",
+  "description": "Sample implementations for using Gorilla",
+  "scripts": {
+    "build": "npm run build:simple && npm run build:config",
+    "build:simple": "gorilla --input ./sample-simple/src/main.ts --output ./sample-simple/dist/out.user.js",
+    "build:config": "gorilla --config ./sample-custom-config/src/config.json --input ./sample-custom-config/src/main.ts --output ./sample-custom-config/dist/out.user.js"
+  },
+  "author": "Alex King",
+  "license": "MIT",
+  "dependencies": {
+    "gorilla-build": "^0.1.1",
+    "@types/ramda": "^0.27.32",
+    "ramda": "^0.27.1"
+  }
+}
