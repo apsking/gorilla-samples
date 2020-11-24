@@ -14,8 +14,13 @@
 // Created with love using Gorilla
 // ==/UserScript==
 
-var hello = function (name) {
-    console.log("Hello " + name);
-};
+(function () {
+    'use strict';
 
-hello('world');
+    var hello = function (name) {
+        console.log("Hello " + name);
+    };
+
+    hello('world');
+
+}());

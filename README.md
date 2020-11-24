@@ -30,3 +30,4 @@ This is a collection of samples that use [Gorilla](https://github.com/apsking/go
 ## Samples
 1. [Quick start](https://github.com/apsking/gorilla-samples/tree/mainline/sample-simple) - If you are new, go ahead and start here. A simple use-case that only references internal modules.
 2. [Custom config](https://github.com/apsking/gorilla-samples/tree/mainline/sample-custom-config) - Use a custom Gorilla config to include custom metadata in your script.
+3. [NPM-imported package](https://github.com/apsking/gorilla-samples/tree/mainline/sample-npm-package) - Import an NPM package to use within your script.
