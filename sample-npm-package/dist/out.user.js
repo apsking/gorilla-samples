@@ -1,13 +1,14 @@
 
 // ==UserScript==
-// @name   New Userscript
-// @namespace   http://tampermonkey.net/
-// @version   0.1
-// @description   Gorilla-built, rock-solid, Monkey script
+// @name			New Userscript
+// @namespace		http://tampermonkey.net/
+// @version			0.1
+// @description		Gorilla-built, rock-solid, Monkey script
 // @updateURL
 // @downloadURL
-// @author   You
-// @match   http://*/*
+// @author			You
+// @include			https://**
+//
 // Created with love using Gorilla
 // ==/UserScript==
 
